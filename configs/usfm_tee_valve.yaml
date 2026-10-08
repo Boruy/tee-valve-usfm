@@ -1,0 +1,11 @@
+name: tee_valve
+type: SegBase
+num_classes: 2
+img_size: 512
+path:
+  root: ./datasets/Seg/tee_valve
+  split:
+    train: training_set
+    val: val_set
+    test: test_set
+transform:
